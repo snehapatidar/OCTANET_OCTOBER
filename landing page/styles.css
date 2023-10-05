@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.First_Div {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+
+
+}
+
+.Top_Line {
+    color: rgba(223, 221, 221, 0.699);
+
+}
+
+.Second_Div {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    position: relative;
+
+
+}
+
+.Shopping_Category {
+    width: 275px;
+    height: 65px;
+    padding: 20px;
+
+}
+.Shopping_Category a{
+    display: block;
+}
+.Shopping_Category>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Shopping_Category>ul>li>a {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Shopping_Category>ul>li>a:hover {
+    border-bottom: 2px solid #000;
+
+}
+
+.Women_Menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.Shopping_Category ul li:hover .Women_Menu {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.Women_Content {
+    margin: 20px 0 0 40px;
+
+}
+.Women_Content li{
+    padding: 12px;
+}
+.Women_Content a {
+    color: grey;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.Women_Img {
+    margin: 20px 40px 0 40px;
+}
+
+.Men_Menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.Shopping_Category ul li:hover .Men_Menu {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.Men_Content {
+    margin: 20px 0 0 40px;
+
+}
+
+.Men_Content a {
+    color: grey;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.Men_Img {
+    margin: 20px 40px 0 40px;
+}
+.Men_Content li{
+    padding: 12px;
+}
+.Teen_Menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.Shopping_Category ul li:hover .Teen_Menu {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.Teen_Content {
+    margin: 20px 0 0 40px;
+
+}
+
+.Teen_Content a {
+    color: grey;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.Teen_Img {
+    margin: 20px 40px 0 40px;
+}
+.Teen_Content li{
+    padding: 12px;
+}
+.Teen_Content>ul>li>p{
+    color: grey;
+}
+.Kids_Menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.Shopping_Category ul li:hover .Kids_Menu {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.Kids_Content {
+    margin: 20px 0 0 40px;
+
+}
+
+.Kids_Content a {
+    color: grey;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.Kids_Img {
+    margin: 20px 40px 0 40px;
+}
+.Kids_Content li{
+    padding: 12px;
+}
+.Kids_Content>ul>li>p{
+    color: grey;
+}
+.Second_Right_Div {
+    width: 1176px;
+    height: 65px;
+    display: flex;
+}
+
+.Logo_Div {
+    width: 145px;
+    height: 27px;
+    margin: 20px 0px 0px 300px;
+}
+
+.Login_Div {
+    position: relative;
+}
+
+.Login_Div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px 0px 250px;
+    padding-top: 20px;
+    gap: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Login_Div li {
+    color: black;
+}
+.Login_Div a{
+    color: black;
+}
+.Icon_Search {
+    color: black;
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+.Icon_SignIn {
+    color: black;
+    font-size: 18px;
+    margin: 0px 0px 0px 12px;
+}
+
+.Signin_Container {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 100%;
+    margin: 0px 0px 0px -125px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all; 
+    transition-duration: 0.6s; 
+    transition-timing-function: ease;
+}
+.Login_Div ul li:hover .Signin_Container{
+    opacity: 1;
+    visibility: visible;
+}
+.black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 300px;
+    margin: 20px 10px 0px 50px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.black-button:hover {
+    background-color: #333;
+}
+
+.Account {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px 0px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+
+.Account p {
+    color: black;
+}
+
+.Register a {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.Purchases {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0px 0px 50px;
+}
+
+.Purchases a {
+    color: black;
+}
+
+.Help {
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 0px 50px;
+}
+
+.Help a {
+    color: black;
+}
+
+.Icon_Wishlist {
+    color: black;
+    font-size: 18px;
+    margin: 0px 0px 0px 14px;
+}
+
+.Icon_ShopingBag {
+    color: black;
+    font-size: 18px;
+    margin: 0px 0px 0px 25px;
+}
+
+.Main_Animation {
+    display: flex;
+}
+
+.Main_Animation img {
+    width: 100%;
+    height: 500px;
+}
+
+footer {
+    background: white;
+    padding: 15px 23px;
+    width: 100%;
+    height: 20px;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+.Shopping_Category .Men_Menu .Men_Content ul li a:hover{
+    color: black;
+}
+.Shopping_Category .Women_Menu .Women_Content ul li a:hover{
+    color: black;
+}
+.Shopping_Category .Teen_Menu .Teen_Content ul li a:hover{
+    color: black;
+}
+.Shopping_Category .Kids_Menu .Kids_Content ul li a:hover{
+    color: black;
+}
