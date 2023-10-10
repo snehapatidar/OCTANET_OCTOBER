@@ -105,12 +105,5 @@ ul li span{
 ul li span:hover{
     background:#edeef0 ;
 }
-footer {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,4,23,1) 35%, rgba(0,212,255,1) 100%);
-    width: 100%;
-    color:#dfe4ec;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 700;
-}
+
 
